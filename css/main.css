@@ -7,17 +7,7 @@ html {
 }
 
 body {
-    
-}
-
-a{
-    color:#f6c3ff;
-    text-shadow: 0.3px 0.5px #d000ff;
-}
-
-#pinku{
-    font-size:2em;
-    color:#f6c3ff;
+    margin-top: 5em;
 }
 
 em,
@@ -34,6 +24,20 @@ td
  color:#4d4d4d
 }
 
+.pinku{
+    text-decoration: none;
+    font-size:2em;
+    color:#f6c3ff;
+    text-shadow: none;
+
+}
+
+a{
+    text-decoration: underline;
+    color:#f6c3ff;
+    text-shadow: 0.3px 0.5px #d000ff;
+}
+
 img{
     max-width:50em;
     max-height:50em;
@@ -48,10 +52,6 @@ table{
 td{
     text-align: left;
     border: 0px solid black;
-}
-
-a {
-    text-decoration:underline
 }
 
 .article{
@@ -71,14 +71,6 @@ a {
     vertical-align: auto;
 }
 
-#rcorners {
-    border-radius: 10px;
-    border: 2px solid #4d4d4d;
-    padding: 2px; 
-    width: auto;
-    height: auto;  
-}
-
 .centered-image {
     width: 100%;
     height: 30em;
@@ -86,6 +78,16 @@ a {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
+}
+
+
+
+#rcorners {
+    border-radius: 10px;
+    border: 2px solid #4d4d4d;
+    padding: 2px; 
+    width: auto;
+    height: auto;  
 }
 
 #overlay {
