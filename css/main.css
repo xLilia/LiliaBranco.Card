@@ -120,11 +120,21 @@ td{
 .centered-image {
     width: 100%;
     height: 30em;
-    background-image: url("../imgs/header.png");
+    background-image: url("../imgs/header.gif");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
 }
+
+/*.centered-image:hover {
+    width: 100%;
+    height: 30em;
+    background-image: url("../imgs/header2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}*/
+
 
 .rcorners {
     border-radius: 10px;
